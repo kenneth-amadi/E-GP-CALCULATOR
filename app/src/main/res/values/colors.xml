@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorPrimaryLight">#1E88E5</color>
+    <color name="colorAccent">#FF9800</color>
+	<color name="colorAccentDark">#F50057</color>
+    <color name="colorAccentLight">#FF80AB</color>
+	<color name="textColorPrimary">#212121</color>
+	<color name="textColorSecondary">#20A626</color>
+
+	<color name="icons">#468AE6</color>
+	<color name="divider">#B6B6B6</color>
+	<color name="systemBar">#262422</color>
+
+	<color name="colorControlNormal">@color/textColorSecondary</color>
+	<color name="colorControlActivated">@color/colorAccent</color>
+	<color name="colorControlHighlight">@color/divider</color>
+
+	<color name="colorButtonNormal">#5EFB00</color>
+	<color name="colorSwitchThumbNormal">#FF9800</color>
+	<color name="navigationBarColor">@color/colorPrimary</color>
+
+	<color name="windowBackground">#C0C3C6</color>
+	<color name="lightBackground">#E0E0E0</color>
+	<color name="darkBackground">#424242</color>
+	<color name="drawerBackground">#FFfafafa</color>
+	<color name="rowBackground">#F2F2F2</color>
+
+	<color name="cyan">#00BCD4</color>
+	<color name="tab_strip">#3E9B0F</color>
+	<color name="signupColor">@color/colorPrimaryDark</color>
+
+	<!-- Background colors for the intro screen-->
+
+	<color name="introFirst">#E81E63</color>
+	<color name="introSecond">#8C27B0</color>
+	<color name="introThird">#008688</color>
+	<color name="introLast">#ff8800</color>
+
+	<!--  Darker colors for the dots-->
+	<color name="dotDarkFirst">#A4073D</color>
+	<color name="dotDarkSecond">#590478</color>
+	<color name="dotDarkThird">#046566</color>
+	<color name="dotDarkLast">#C46A04</color>
+
+	<!-- Light colors of the dots-->
+	<color name="dotLightFirst">#F24983</color>
+	<color name="dotLightSecond">#AA45CE</color>
+	<color name="dotLightThird">#168E8F</color>
+	<color name="dotLightLast">#FA9F38</color>
+
+	<color name="grey_3">#f7f7f7</color>
+	<color name="grey_5">#f2f2f2</color>
+	<color name="grey_10">#e6e6e6</color>
+	<color name="grey_20">#cccccc</color>
+	<color name="grey_40">#999999</color>
+	<color name="grey_60">#666666</color>
+	<color name="grey_80">#37474F</color>
+	<color name="grey_90">#263238</color>
+	<color name="grey_95">#202B30</color>
+
+	<color name="gray_900">#212121</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_100">#F5F5F5</color>
+
+</resources>

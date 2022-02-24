@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:scrollbarThumbVertical="@null"
+	android:fillViewport="true">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit1"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_1_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade1"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_1_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit2"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_2_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade2"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_2_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit3"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_3_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade3"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_3_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit4"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_4_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade4"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_4_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit5"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_5_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade5"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_5_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit6"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_6_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade6"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_6_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit7"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_7_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade7"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_7_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit8"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_8_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade8"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_8_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit9"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_9_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade9"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_9_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit10"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_10_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade10"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_10_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit11"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_11_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade11"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_11_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit12"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_12_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade12"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_12_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit13"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_13_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade13"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_13_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit14"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_14_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade14"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_14_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit15"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_15_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade15"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_15_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit16"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_16_credit"
+					tools:ignore="TooManyViews" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade16"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_16_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit17"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_17_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade17"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_17_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit18"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_18_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade18"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_18_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit19"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_19_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade19"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_19_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit20"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_20_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade20"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_20_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit21"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_21_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade21"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_21_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit22"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_22_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade22"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_22_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit23"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_23_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade23"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_23_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit24"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_24_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade24"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_24_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit25"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_25_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade25"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_25_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit26"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_26_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade26"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_26_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit27"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_27_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade27"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_27_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit28"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_28_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade28"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_28_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit29"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_29_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade29"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_29_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit30"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_30_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade30"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_30_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit31"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_31_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade31"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_31_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/credit32"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_left_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_32_credit"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginStart="5dp"
+				android:layout_marginEnd="5dp">
+
+				<Button
+					android:id="@+id/grade32"
+					android:layout_height="wrap_content" 
+					android:layout_width="match_parent" 
+					android:layout_marginTop="5dp"
+					android:background="@drawable/button_right_selector" 
+					android:textColor="@drawable/button_text_color_selector" 
+					android:shadowColor="#ff000000"
+					android:fontFamily="sans-serif-condensed"
+					android:text="@string/course_32_grade"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+		
+	</LinearLayout>
+
+</ScrollView>
+

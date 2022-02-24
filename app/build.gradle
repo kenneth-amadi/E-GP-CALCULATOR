@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\user\\AndroidStudioProjects\\KIXFOBBY\\Keystore\\kixf-keystore.jks')
+            storePassword 'kixfobby2jesus'
+            keyPassword 'kixfobby2jesus'
+            keyAlias 'kixfobbyandroidkey'
+        }
+        release {
+            storeFile file('C:\\Users\\user\\AndroidStudioProjects\\KIXFOBBY\\Keystore\\kixf-keystore.jks')
+            storePassword 'kixfobby2jesus'
+            keyPassword 'kixfobby2jesus'
+            keyAlias 'kixfobbyandroidkey'
+        }
+    }
+    compileSdkVersion 32
+    buildToolsVersion '30.0.3'
+
+    defaultConfig {
+        applicationId "com.kixfobby.study.gpcalculator"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 2
+        versionName '1.0.0'
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dependenciesInfo {
+        includeInApk false
+        includeInBundle false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation "androidx.core:core-ktx:1.7.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    implementation 'com.google.android.gms:play-services-ads:20.5.0'
+    implementation 'com.google.firebase:firebase-analytics:20.1.0'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+}
+repositories {
+    mavenCentral()
+}
