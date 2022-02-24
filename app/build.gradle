@@ -3,20 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('C:\\Users\\user\\AndroidStudioProjects\\KIXFOBBY\\Keystore\\kixf-keystore.jks')
-            storePassword 'kixfobby2jesus'
-            keyPassword 'kixfobby2jesus'
-            keyAlias 'kixfobbyandroidkey'
-        }
-        release {
-            storeFile file('C:\\Users\\user\\AndroidStudioProjects\\KIXFOBBY\\Keystore\\kixf-keystore.jks')
-            storePassword 'kixfobby2jesus'
-            keyPassword 'kixfobby2jesus'
-            keyAlias 'kixfobbyandroidkey'
-        }
-    }
+    
     compileSdkVersion 32
     buildToolsVersion '30.0.3'
 
